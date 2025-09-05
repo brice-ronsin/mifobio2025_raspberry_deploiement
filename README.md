@@ -26,8 +26,8 @@ pour notre atelier veuillez commencez au point 3. Les étapes préalables sont d
 
 dans la nouvelle fenêtre chosir :<br/>
 <p align="right">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG93MmF5czhkc2d1OGsxeXpzaXE1MTd5MTlrZm5qbzZvM21razhhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9jwR2KCuAf8aIANOUr/giphy.gif" alt="animated />
-</p>
+  <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/sofware_raspberry.jpg" />
+</p><br/>
 
 #### 1-le model de votre raspberry<br/>
 #### 2-Le système d'exploitation (en général Raspberry Pi OS 64bit)<br/>
