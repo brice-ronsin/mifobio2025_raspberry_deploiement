@@ -20,5 +20,15 @@ pour notre atelier veuillez commencez au point 3. Les étapes préalables sont d
 1) Installation du système d'exploistation sur Raspberry
   </p></h1>
 
-allez sur le site <a href="https://www.raspberrypi.com/software/">Raspberry Pi sofware</a>
-télécharger et installer le logiciel sur votre ordinateur 
+-allez sur le site <a href="https://www.raspberrypi.com/software/">Raspberry Pi sofware</a>
+-télécharger et installer le logiciel sur votre ordinateur <br/>
+-lancer le programme d'installation et inserer la carte micro SD dans votre ordinateur<br/> 
+
+dans la nouvelle fenêtre chosir :<br/>
+<p align="right">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG93MmF5czhkc2d1OGsxeXpzaXE1MTd5MTlrZm5qbzZvM21razhhbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9jwR2KCuAf8aIANOUr/giphy.gif" alt="animated />
+</p>
+
+#### 1-le model de votre raspberry<br/>
+#### 2-Le système d'exploitation (en général Raspberry Pi OS 64bit)<br/>
+#### 3-le chemin de la micro SD<br/> 
