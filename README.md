@@ -24,7 +24,7 @@ pour notre atelier veuillez commencez au point 3. Les étapes préalables sont d
 -télécharger et installer le logiciel sur votre ordinateur <br/>
 -lancer le programme d'installation et inserer la carte micro SD dans votre ordinateur<br/> 
 
-dans la nouvelle fenêtre chosir :<br/>
+dans la nouvelle fenêtre choisir :<br/>
 <p align="right">
   <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/sofware_raspberry.jpg" />
 </p><br/>
@@ -33,5 +33,13 @@ dans la nouvelle fenêtre chosir :<br/>
 #### 2-Le système d'exploitation (en général Raspberry Pi OS 64bit)<br/>
 #### 3-le chemin de la micro SD<br/>
 #### 4-cliquez sur suivant <br/>
-quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Repondre aux questions de démarage classique lors de l'installation d'un système d'exploitation (reseau, nom, mot de passe etc..)
+quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Repondre aux questions de démarage classique lors de l'installation d'un système d'exploitation (reseau, nom, mot de passe etc..)</br>
 
+<h1 style="text-align: center;">
+  <p align="center">
+2) Installation de pyenv et creation d'un environnement
+  </p></h1>
+
+  Sur le bureau de votre raspberry cliquez pour ouvrir le terminal (icone sur la barre de tache) <p align="right">
+  <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/sofware_raspberry.jpg" />
+</p><br/>  
