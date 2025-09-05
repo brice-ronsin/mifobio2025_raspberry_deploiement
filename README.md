@@ -31,4 +31,7 @@ dans la nouvelle fenêtre chosir :<br/>
 
 #### 1-le model de votre raspberry<br/>
 #### 2-Le système d'exploitation (en général Raspberry Pi OS 64bit)<br/>
-#### 3-le chemin de la micro SD<br/> 
+#### 3-le chemin de la micro SD<br/>
+#### 4-cliquez sur suivant <br/>
+quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Repondre aux questions de démarage classique lors de l'installation d'un système d'exploitation (reseau, nom, mot de passe etc..)
+
