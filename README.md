@@ -149,11 +149,23 @@ bash requirements.sh
 
 nous allons télécharger un script de base déjà créer pour utiliser notre modèle sur des images  live obtenu par la webcam.
 Cependant nous allons modifier ce script pour piloter nos servo moteurs
-(dans le dossier à copier vous avez les deux scripts: le scripts de base et le script modifié)
+(dans le dossier à copier vous avez les deux scripts: le script de base et le script modifié)
 
 dans le terminal tapez : 
 ```
 wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/a_copier/TFLite_detection_webcam.py
 ```
 
+#### 3- lancement du script dans notre epace virtuel
 
+pour lancer enfin le script il faut au préalable avoir copier dans le dossier de travail (ici TFOD)
+le modèle que vous avez sauvegarder (le dossier zippé) du Jupyter notebook  <p align="left"><a href="https://github.com/brice-ronsin/mifobio_discoscope">mifobio_discoscope</a></p><br/>
+
+Quand tout est prêt tapez dans le terminal : 
+```
+python3 TFLite_detection_webcam.py --modeldir=custom_model_lite
+```
+
+ remplacer éventuellement TFLite_detection_webcam.py par le nom du script que vopus avez modifié
+ et <pre>--modeldir=custom_model_lite </pre> par <pre>--modeldi="NOM du dossier contenant votre modèle et vos labels"</pre>
+ 
