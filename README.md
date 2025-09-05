@@ -37,7 +37,7 @@ quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Re
 
 <h1 style="text-align: center;">
   <p align="center">
-2) Installation de pyenv et creation d'un environnement
+2) Installation de pyenv pour la création d'environement
   </p></h1>
 
   Sur le bureau de votre raspberry cliquez pour ouvrir le terminal (icone sur la barre de tache) <p align="right">
@@ -51,4 +51,11 @@ sudo apt install -y make build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
 libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev \
 liblzma-dev python3-openssl
+```
+
+Une fois ces dépendances installées, vous pouvez procéder à l’installation de Pyenv <br/>
+en utilisant un script fourni par les mainteneurs du projet :<br/>
+
+```
+curl https://pyenv.run | bash
 ```
