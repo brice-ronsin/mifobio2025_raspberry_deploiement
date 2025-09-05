@@ -42,4 +42,13 @@ quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Re
 
   Sur le bureau de votre raspberry cliquez pour ouvrir le terminal (icone sur la barre de tache) <p align="right">
   <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/sofware_raspberry.jpg" />
-</p><br/>  
+</p><br/> 
+
+Tapez ensuite le code suivant ou copier/coller dans la console :
+
+```
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev \
+liblzma-dev python3-openssl
+```
