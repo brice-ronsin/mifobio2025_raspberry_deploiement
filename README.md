@@ -41,7 +41,7 @@ quand tout est fini mettre la carte micro SD dans la Raspberry et la demarer. Re
   </p></h1>
 
   Sur le bureau de votre raspberry cliquez pour ouvrir le terminal (icone sur la barre de tache) <p align="right">
-  <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/sofware_raspberry.jpg" />
+  <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/terminal.png" />
 </p><br/> 
 
 Tapez ensuite le code suivant ou copier/coller dans la console :
@@ -53,9 +53,96 @@ libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev \
 liblzma-dev python3-openssl
 ```
 
+Editer alors le fichier .bashrc dans le dossier home/"nom que vous avez donné" (dans notre cas mifobio) <br/>
+si il n’est pas visible cliquez sur voir et afficher dossier caché
+Tapez ensuite les commandes suivantes : 
+
+```
+sudo nano .bashrc
+```
+
+a la fin de votre fichier rajouter ces lignes pour que pyenv puisse gérer les version et les environnements : 
+
+```
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+```
+Cliquez ensuite sur control X pour sauvegarder et redemarer la raspberry
+
 Une fois ces dépendances installées, vous pouvez procéder à l’installation de Pyenv <br/>
 en utilisant un script fourni par les mainteneurs du projet :<br/>
 
 ```
 curl https://pyenv.run | bash
 ```
+</br>
+<h1 style="text-align: center;">
+  <p align="center">
+3) Installation par pyenv de la version python à utiliser et création de l'environement virtuel
+  </p></h1>
+
+Pyenv est un module qui vous permet de basculer aisément entre différentes versions de Python, tout en gardant votre environnement de développement propre et organisé.
+Pyenv offre une variété de fonctionnalités pour gérer les versions de Python :
+Installation de versions multiples : Installez et gérez facilement plusieurs versions de Python côte à côte sur votre machine.
+Définition de versions globales et locales : Choisissez une version globale de Python pour l’ensemble du système, ou définissez une version spécifique pour un projet particulier avec pyenv local.
+Isolation des environnements : Créez des environnements virtuels isolés avec pyenv virtualenv pour des projets
+
+  #### 1- Installer et utiliser la version de python souhaiter en local 
+
+Sur la raspberry ouvrir un terminal <p align="right">
+  <img src="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/images/terminal.png" />
+</p><br/> 
+Taper ensuite dans le terminal la ou les version de python à installer (pour nous le python 3.9.2)
+
+```
+pyenv install 3.9.2
+```
+Créer ensuite un dossier TFOD de travail dans le home/"nom que vous avez donné" (dans notre cas mifobio) <br/>
+dans la console se placer dans le dossier 
+```
+cd TFOD
+```
+puis spécifier la version que vous souhaitez utiliser dans ce dossier en tapant dans le terminal : 
+```
+pyenv local 3.9.2
+```
+
+#### 2- Création d'un environement python 
+
+Nous allons maintenant installer avec le python 3.9.2 un environnement virtuel tflite (donner le nom ue vous souhaitez):
+
+tapez dans le terminal : 
+```
+python -m venv tflite
+```
+Enfin activer l'environnement en écrivant dans le terminal : 
+```
+source tflite/bin/activate
+```
+Voila votre environnement est prêt à être utilisé nous pouvons donc passer au point 4 
+
+<h1 style="text-align: center;">
+  <p align="center">
+3) Installation des dependances ensorFlow Lite et OpenCV
+  </p></h1>
+
+Nous allons installer TensorFlow, OpenCV et toutes les dépendances nécessaires pour ces deux paquets. 
+OpenCV n'est pas nécessaire pour exécuter TensorFlow Lite, mais les scripts de détection d'objets 
+l'utilisent pour récupérer des images et y dessiner les résultats de la détection.
+
+Pour faciliter les choses, nous allons télécharger un script shell qui va télécharger et installer automatiquement tous les paquets et dépendances. 
+
+##### 1- téléchargement du script du dossier à copier
+
+dans le terminal tapez : 
+```
+wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/a_copier/requirements.sh
+```
+puis :
+```
+bash requirements.sh
+```
+
+
