@@ -9,7 +9,7 @@ Mifobio2025_raspberry_deploiement
     
 cette page vous guidera dans l'intallation du système d'exploitation pour votre raspberry Pi (version 5 ou 4)
     et dans le déploiement de votre model obtenue en ayant effectuer toutes les étapes du dépot github :
-    
+
  <p align="center"><a href="https://github.com/brice-ronsin/mifobio_discoscope">mifobio_discoscope</a></p><br/>
  <br/>Nous installerons le tout dans un dossier virtuel pour isoler notre travail. 
     Pour faciliter notre atelier certaines de ces actions auront dejà été réalisées 
@@ -166,6 +166,6 @@ Quand tout est prêt tapez dans le terminal :
 python3 TFLite_detection_webcam.py --modeldir=custom_model_lite
 ```
 
- remplacer éventuellement TFLite_detection_webcam.py par le nom du script que vopus avez modifié
- et <pre>--modeldir=custom_model_lite </pre> par <pre>--modeldi="NOM du dossier contenant votre modèle et vos labels"</pre>
+ remplacer éventuellement  <a href="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/edit/main/README.md#--3-installation-par-pyenv-de-la-version-python-%C3%A0-utiliser-et-cr%C3%A9ation-de-lenvironement-virtuel--">TFLite_detection_webcam.py</a> par le  <a href="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/edit/main/README.md#--3-installation-par-pyenv-de-la-version-python-%C3%A0-utiliser-et-cr%C3%A9ation-de-lenvironement-virtuel--">nom du script que vous avez modifié</a></br>
+ et <a href="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/edit/main/README.md#--3-installation-par-pyenv-de-la-version-python-%C3%A0-utiliser-et-cr%C3%A9ation-de-lenvironement-virtuel--">--modeldir=custom_model_lite</a> par <a href="https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/edit/main/README.md#--3-installation-par-pyenv-de-la-version-python-%C3%A0-utiliser-et-cr%C3%A9ation-de-lenvironement-virtuel--">--modeldir="NOM du dossier contenant votre modèle et vos labels"</a>
  
