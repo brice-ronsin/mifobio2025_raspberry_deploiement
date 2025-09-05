@@ -125,7 +125,7 @@ Voila votre environnement est prêt à être utilisé nous pouvons donc passer a
 
 <h1 style="text-align: center;">
   <p align="center">
-3) Installation des dependances ensorFlow Lite et OpenCV
+4) Installation des dependances TensorFlow Lite et OpenCV
   </p></h1>
 
 Nous allons installer TensorFlow, OpenCV et toutes les dépendances nécessaires pour ces deux paquets. 
@@ -143,6 +143,17 @@ wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main
 puis :
 ```
 bash requirements.sh
+```
+
+#### 2- télécharger le script python pour utiliser TensorFlow avec la webcam 
+
+nous allons télécharger un script de base déjà créer pour utiliser notre modèle sur des images  live obtenu par la webcam.
+Cependant nous allons modifier ce script pour piloter nos servo moteurs
+(dans le dossier à copier vous avez les deux scripts: le scripts de base et le script modifié)
+
+dans le terminal tapez : 
+```
+wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/a_copier/TFLite_detection_webcam.py
 ```
 
 
