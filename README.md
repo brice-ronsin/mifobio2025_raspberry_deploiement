@@ -13,7 +13,7 @@ cette page vous guidera dans l'intallation du système d'exploitation pour votre
  <p align="center"><a href="https://github.com/brice-ronsin/mifobio_discoscope">mifobio_discoscope</a></p><br/>
  <br/>Nous installerons le tout dans un dossier virtuel pour isoler notre travail. 
     Pour faciliter notre atelier certaines de ces actions auront dejà été réalisées 
-pour notre atelier veuillez commencez au [point 3]((3) Installation par pyenv de la version python à utiliser et création de l'environement virtuel). Les étapes préalables sont données qui si vous souhaitez tout refaire<br/>
+pour notre atelier veuillez commencez au point 3. Les étapes préalables sont données qui si vous souhaitez tout refaire<br/>
 
 <h1 style="text-align: center;">
   <p align="center">
