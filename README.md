@@ -19,3 +19,6 @@ pour notre atelier veuillez commencez au point 3. Les étapes préalables sont d
   <p align="center">
 1) Installation du système d'exploistation sur Raspberry
   </p></h1>
+
+allez sur le site <a href="https://www.raspberrypi.com/software/">Raspberry Pi sofware</a>
+télécharger et installer le logiciel sur votre ordinateur 
