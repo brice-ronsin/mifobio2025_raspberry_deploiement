@@ -138,7 +138,7 @@ Pour faciliter les choses, nous allons télécharger un script shell qui va tél
 
 dans le terminal tapez : 
 ```
-wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/a_copier/requirements.sh
+wget https://raw.githubusercontent.com/brice-ronsin/mifobio2025_raspberry_deploiement/refs/heads/main/a_copier/requirements.sh
 ```
 puis :
 ```
