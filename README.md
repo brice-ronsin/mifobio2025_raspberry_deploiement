@@ -153,7 +153,7 @@ Cependant nous allons modifier ce script pour piloter nos servo moteurs
 
 dans le terminal tapez : 
 ```
-wget https://github.com/brice-ronsin/mifobio2025_raspberry_deploiement/blob/main/a_copier/TFLite_detection_webcam.py
+wget https://raw.githubusercontent.com/brice-ronsin/mifobio2025_raspberry_deploiement/refs/heads/main/a_copier/TFLite_detection_webcam.py
 ```
 
 #### 3- lancement du script dans notre epace virtuel
