@@ -138,7 +138,7 @@ Pour faciliter les choses, nous allons télécharger un script shell qui va tél
 
 dans le terminal tapez : 
 ```
-wget https://raw.githubusercontent.com/brice-ronsin/mifobio2025_raspberry_deploiement/refs/heads/main/a_copier/requirements.sh
+wget https://raw.githubusercontent.com/brice-ronsin/mifobio_discoscope/refs/heads/main/a_copier/model_main_tf2.py
 ```
 puis :
 ```
